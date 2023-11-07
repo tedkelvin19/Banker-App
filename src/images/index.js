@@ -23,7 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-
+import api from "./api.svg";
+import onboarding from "./onboarding.svg";
+import online from "./online.svg";
+import budgeting from "./budgeting.svg";
 export {
   airbnb,
   bill,
@@ -50,4 +53,8 @@ export {
   people01,
   people02,
   people03,
+  api,
+  onboarding,
+  online,
+  budgeting,
 };
