@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from "../style";
-import { logo } from "../images";
-import { footerLinks, socialMedia } from "../Constants";
+import styles from "../style"
+import { logo } from "../images"
+import { footerLinks, socialMedia } from "../Constants"
 
 const Footer = () => {
   return (
@@ -60,7 +60,7 @@ const Footer = () => {
         ))}
       </div>
     </div>
-    </section>
+  </section>
   )
 }
 
