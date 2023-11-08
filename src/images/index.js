@@ -48,4 +48,5 @@ export {
   onboarding,
   online,
   budgeting,
+  card,
 };
