@@ -53,6 +53,24 @@
             "accountNumber": "75XXXXXX49",
             "Balance": "6M",
             "Comment": "Easybank has provided a stable support and growth of my financies." 
+        },
+        {
+            "id": 7,
+            "image":"https://images-platform.99static.com/J-Hlkp8QM5ACvXAhonHCiTbTvGo=/500x500/top/smart/99designs-contests-attachments/55/55981/attachment_55981218",
+            "name": "Culinary Delights",
+            "category": "business", 
+            "accountNumber": "40XXXXXX39",
+            "Balance": "50M",
+            "Comment": "Easy bank has being of great financial help for the Company." 
+        },
+        {
+            "id": 8,
+            "image":"https://images-platform.99static.com/5wfDRQCe8JBR_RCk5V0Hjw-M8Ag=/0x0:1000x1000/500x500/top/smart/99designs-contests-attachments/69/69386/attachment_69386085",
+            "name": "The ASLETT Law Firm",
+            "category": "business", 
+            "accountNumber": "40XXXXXX39",
+            "Balance": "450M",
+            "Comment": "Easy bank has being of great financial help for the Company." 
         }
     ]
 }
