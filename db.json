@@ -1,0 +1,58 @@
+{
+    "Accounts":[
+        {
+            "id": 1,
+            "image":"https://prestigemanor.com/wp-content/uploads/2021/09/Logo-Green-Tree.png",
+            "name": "Prestige Manor",
+            "category": "business", 
+            "accountNumber": "40XXXXXX39",
+            "Balance": "300M",
+            "Comment": "Easy bank has being of great financial help for the Company." 
+        },
+        {
+            "id": 2,
+            "image": "https://img.freepik.com/premium-vector/apparel-brand-logo-design_675726-39.jpg?size=626&ext=jpg",
+            "name": "Grandeur Chateau",
+            "category": "business",
+            "accountNumber": "70XXXXXX59",
+            "Balance": "500M",
+            "Comment": "Easybank has provided a stable support and growth of the Company financies." 
+        },
+        {
+            "id": 3,
+            "image": "https://i0.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2021/01/crazy-ex-girlfriend-scott-michael-foster-nathaniel-1.jpg?w=620&ssl=1",
+            "name": "Scott Michael",
+            "category": "Personal",
+            "accountNumber": "54XXXXXX99",
+            "Balance": "10M",
+            "Comment": "Easybank offers a easy and non-costly payment method " 
+        },
+        {
+            "id": 4,
+            "image": "https://scontent-mba1-1.xx.fbcdn.net/v/t39.30808-6/311830010_530179119115140_7309027036079071915_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=2X7gWN7FL1QAX-z8Uzp&_nc_ht=scontent-mba1-1.xx&oh=00_AfAj3pJs8MsQDzTqa-MWkpPPN_0fr7UhwmLxeOO_9eFF_g&oe=655151DD",
+            "name": "Pure Life",
+            "category": "business",
+            "accountNumber": "70XXXXXX59",
+            "Balance": "200M",
+            "Comment": "Easybank has provided a stable support and growth of the Company financies." 
+        },
+        {
+            "id": 5,
+            "image": "https://www.chicagobooth.edu/-/media/project/chicago-booth/faculty-and-insights/faculty/steven-neil-kaplan/chicago-booth-steven-neil-kaplan.jpg?cx=0.45&cy=0.35&cw=749&ch=940&hash=9C6999BF884C4789E33CAD11D549A466",
+            "name": "Steven Maina",
+            "category": "Personal",
+            "accountNumber": "75XXXXXX49",
+            "Balance": "30M",
+            "Comment": "Easybank has provided a stable support and growth of my financies." 
+        },
+        {
+            "id": 6,
+            "image": "https://www.letsengage.com/storage/talents/1654197953TamaraFlemingPhotography_AnthonyF_TAM00416WebReady.jpg",
+            "name": "Antony Frasier",
+            "category": "Personal",
+            "accountNumber": "75XXXXXX49",
+            "Balance": "6M",
+            "Comment": "Easybank has provided a stable support and growth of my financies." 
+        }
+    ]
+}
