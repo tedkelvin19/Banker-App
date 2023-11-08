@@ -17,12 +17,16 @@ const Main = () =>(
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
             The Next <br className='sm:block hidden' /> {' '}
             <span className='text-gradient'>Generation</span> {' '}
-            Digital Banking.
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted />
           </div>
         </div>
+        <h1 className='font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>Digital Banking.</h1>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+      </div>
+      <div>
+        <img src={robot} className='w-[180%] h-[100%] relative z-[5]'/>
       </div>
     </section>
   )
