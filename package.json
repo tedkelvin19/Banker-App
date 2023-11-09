@@ -4,14 +4,18 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "json-server --watch db.json -p 3000 & open http://localhost:8001 & PORT=8002 react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

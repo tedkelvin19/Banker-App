@@ -1,0 +1,9 @@
+.acc{
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+      grid-gap: 50px;
+      margin: 50px auto;
+      max-width: 1240px;
+      padding: 20px;
+      box-shadow: 4px 4px 30px rgba(0,0,0,0.06);
+  }
