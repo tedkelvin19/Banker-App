@@ -2,6 +2,7 @@ import React from 'react'
 import styles, {layout} from "../style"
 import {features} from "../Constants"
 import Buttons from './Buttons'
+import Footer from './Footer'
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -20,7 +21,11 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => (
-    <section id='features' className={layout.section}>
+    <div>
+       <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white text-center ss:leading-[100px] leading-[75px]'>
+            Why Choose EasyBank?
+          </h1>
+      <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>YOu do the business, <br className='sm:block hidden' /> we'll handle the money.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -36,6 +41,10 @@ const Business = () => (
       ))}
     </div>
     </section>
+
+      <Footer />
+    </div>
+    
   )
 
 export default Business
