@@ -1,9 +1,14 @@
 import React from 'react'
 import { apple, bill, google } from "../images";
 import styles, { layout } from "../style";
+import Stats from './Stats';
+import CardDeal from './CardDeal';
+import Footer from './Footer';
 
 const Billing = () => {
   return (
+    <div>
+    <Stats />
     <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={bill}  className="w-[100%] h-[100%] relative z-[5]" />
@@ -30,6 +35,10 @@ const Billing = () => {
       </div>
     </div>
   </section>
+  <CardDeal />
+  <Footer />
+  </div>
+    
   )
 }
 
