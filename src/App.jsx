@@ -27,7 +27,7 @@ const App = () => {
   };
 
     const handlePost = () => {
-      fetch("http://localhost:3000/Accounts", {
+      fetch(`${BASE_URL}/Accounts`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -62,7 +62,7 @@ const App = () => {
 
 
     useEffect(()=>{
-        fetch("http://localhost:3000/Accounts")
+        fetch(`${BASE_URL}/Accounts`)
         .then((res)=> res.json())
         .then((data)=>{
             console.log(data)
