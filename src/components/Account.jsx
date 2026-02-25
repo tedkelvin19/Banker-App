@@ -1,9 +1,11 @@
-//http://localhost:3000/Accounts
+
 import React, {useState} from 'react'
 import AccountCard from './AccountCard'
 import Footer from './Footer'
 import "./form.css"
 import styles from '../style'
+import BASE_URL from "../api";
+
 const Account = ({accounts,formData,handleChange,handleSubmit}) => {
   const [isShown, setisShown] = useState(false)
 
