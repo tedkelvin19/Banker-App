@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import styles from './style'
 import Account from './components/Account'
 import Route from './components/Route'
+import BASE_URL from "./api";
 
 import {Navbar, Billing,  CardDeal,  Business,  CTA,  Stats,  Footer,  Testimonials,  Main,} from './components'
 const App = () => {
